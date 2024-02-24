@@ -1,0 +1,105 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin: 0 90px;
+}
+
+.containerr {
+  position: relative;
+  display: inline-block;
+}
+
+.img-circle {
+  position: absolute;
+  bottom: 60%;
+  right: 20%;
+  transform: translate(50%, 50%);
+  text-align: center;
+  overflow: hidden;
+}
+
+.img-circle img {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
+
+.text-insid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+header {
+  background-color: #787878;
+  padding: 5px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.a {
+  text-decoration: none;
+  color: #1b0707;
+  border: 2px solid transparent;
+  padding: 5px 10px;
+}
+
+.img-foot {
+  margin: 20px
+}
+
+
+
+.img-foot > div {
+  margin: 0 15px; 
+}
+
+.block{
+  border: 5px;
+  color: #1b0707;
+}
+
+
+
+ 
+.img-sqr {
+  position: absolute;
+  top: 40%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+}
+
+.img-sqr img {
+  width: 130px; 
+  height: auto;
+} 
+
+
+.img-foot {
+  position: relative; 
+  display: inline-flexbox; 
+}
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
